@@ -1,0 +1,150 @@
+
+
+body.pink-bg {
+  background: linear-gradient(#ffd6f2, #f5d9ff);
+  font-family: "Cy Grotesk";
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Cy Grotesk";
+  src: url("kobuzan-cy-grotesk-grand-dark.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: "Cy Grotesk", sans-serif;
+}
+
+/* LOGOS */
+.logo-big img {
+  width: 340px;
+  display: block;
+  margin: 60px auto;
+}
+
+.logo-small img {
+  width: 160px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+/* SEED INPUT */
+.seed-box {
+  font-family: "Cy Grotesk";
+  width: 750px;
+  margin: auto;
+  display: flex;
+  background: white;
+  border-radius: 60px;
+  padding: 10px;
+}
+
+.seed-box input {
+  flex: 1;
+  border: none;
+  font-size: 28px;
+  padding-left: 20px;
+  outline: none;
+}
+
+.seed-box button {
+  background: #c742b4;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  padding: 12px 40px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+/* CHAR SELECT */
+.char-select {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.char-btn {
+  background: white;
+  border-radius: 40px;
+  padding: 16px 40px;
+  font-size: 26px;
+  border: none;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.char-btn.selected {
+  background: #ff9de6;
+}
+
+/* HOVER ANIMATION */
+button:hover {
+  transform: scale(1.08);
+  filter: brightness(0.9);
+}
+
+/* PAGE 2 */
+.top-row {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  margin-top: 160px;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.card {
+  width: 280px;
+  height: 280px;
+  border-radius: 40px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hidden-card {
+  font-size: 120px;
+  color: pink;
+}
+
+.badge {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: #c742b4;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+/* TURN BOX */
+.turn-box {
+  position: absolute;
+  left: 40px;
+  bottom: 140px;
+  background: white;
+  border-radius: 30px;
+  padding: 20px 30px;
+  font-size: 22px;
+}
+
